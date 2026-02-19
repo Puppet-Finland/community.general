@@ -468,6 +468,7 @@ def main():
                             options={
                                 "name": dict(type="str", required=True),
                                 "display_name": dict(type="str", aliases=["displayName"], required=True),
+                                "default_value": dict(type="str", aliases=["defaultValue"]),
                                 "validations": dict(
                                     type="dict",
                                     options={
